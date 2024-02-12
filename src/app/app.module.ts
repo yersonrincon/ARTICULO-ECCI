@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { LottieModule } from "ngx-lottie";
 import player from "lottie-web";
-import { InicioComponent } from './inicio/inicio.component';
 export function playerFactory() {
   return player;
 }
@@ -13,7 +12,7 @@ export function playerFactory() {
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+ 
   ],
   imports: [
     BrowserModule,
