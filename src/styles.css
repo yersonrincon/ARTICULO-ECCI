@@ -14,7 +14,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30%; 
+    width: 70%; 
   
 }
 .contenedor-idea {
@@ -27,13 +27,23 @@
   transform: translate(-50%, -50%);
   width: 10%; 
 }
+.contenedor-mercado {
+
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  width: 8%; 
+}
 .contenedor-trabajo {
  
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 85%;
-  left: 50%;
+  top: 92%;
+  left: 67%;
   transform: translate(-50%, -50%);
-  width: 10%; 
+  width: 8%; 
 }

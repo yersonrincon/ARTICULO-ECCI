@@ -2,22 +2,19 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-  
       <div class="contenedor-animacion">
         <ng-lottie [options]="servicios"></ng-lottie>
       </div>
       <div class="contenedor-idea">
         <ng-lottie [options]="logo"></ng-lottie>
       </div>
-      
+      <div class="contenedor-mercado">
+        <ng-lottie [options]="mercado" (click)="openModal(template2, 2)"></ng-lottie>
+      </div>
       <div class="contenedor-trabajo">
-        <div class="botones">
-          <div class="btn btn-outline-light">
             <a role="button">
               <ng-lottie [options]="trabajo" (click)="openModal(template2, 1)"></ng-lottie>
             </a>
-          </div>
-        </div>
       </div>
     </div>
   </div>

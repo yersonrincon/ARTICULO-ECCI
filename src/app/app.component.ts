@@ -16,6 +16,9 @@ export class AppComponent {
     path: "assets/ideas.json"
 
   }
+  mercado:AnimationOptions ={
+    path:"assets/mercado.json"
+  }
   marketin:AnimationOptions ={
     path:"assets/marketin.json"
   }
@@ -45,7 +48,8 @@ export class AppComponent {
         this.titulo = '';
         break;
       case 2:
-        //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor2
+        this.texto ='case 2 ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis quos earum at fuga velit incidunt illum soluta, libero quibusdam hic possimus quod doloremque repellendus laudantium autem tenetur ab est.';
+        this.titulo = '';
         break;
       default:
         //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
