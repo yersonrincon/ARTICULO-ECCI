@@ -6,27 +6,37 @@
         <ng-lottie [options]="servicios"></ng-lottie>
       </div>
       <div class="contenedor-inivacion">
-        <ng-lottie [options]="inovacion"></ng-lottie>
+        <a role="button">
+        <ng-lottie [options]="inovacion" (click)="openModal(template2, 1)"></ng-lottie>
+        </a>
       </div>
       
       <div class="contenedor-mercado">
+        <a role="button">
         <ng-lottie [options]="mercado" (click)="openModal(template2, 2)"></ng-lottie>
+        </a>
       </div>
       <div class="contenedor-trabajo">
             <a role="button">
-              <ng-lottie [options]="trabajo" (click)="openModal(template2, 1)"></ng-lottie>
+              <ng-lottie [options]="trabajo" (click)="openModal(template2, 6)"></ng-lottie>
             </a>
       </div>
-      <div class="contenedor-industria">
+      <div class="contenedor-producto">
         <a role="button">
-          <ng-lottie [options]="industria" (click)="openModal(template2, 1)"></ng-lottie>
+          <ng-lottie [options]="producto" (click)="openModal(template2, 4)"></ng-lottie>
+        </a>
+    </div>
+      <div class="contenedor-caracteristicas">
+        <a role="button">
+          <ng-lottie [options]="caracteristicas" (click)="openModal(template2, 5)"></ng-lottie>
         </a>
   </div>
-  <div class="contenedor-producto">
-    <a role="button">
-      <ng-lottie [options]="producto" (click)="openModal(template2, 1)"></ng-lottie>
-    </a>
-</div>
+      <div class="contenedor-industria">
+        <a role="button">
+          <ng-lottie [options]="industria" (click)="openModal(template2, 3)"></ng-lottie>
+        </a>
+  </div>
+
     </div>
   </div>
 </div>
@@ -39,8 +49,25 @@
       </div>
       <div class="modal-body">
           <div class="modal-body" >
-            <p>{{texto}}</p>
-              
+            <h4 class="modal-title pull-left">{{titulo}}</h4>
+            <div [innerHTML]="texto"></div>
+            <h4 class="modal-title pull-left">{{titulo1}}</h4>
+            <h4 class="modal-title pull-left">{{titulo3}}</h4>
+          
+           
+            <div [innerHTML]="texto1"></div>
+           
+            <div [innerHTML]="texto2"></div>  
+            <h4 class="modal-title pull-left">{{titulo4}}</h4>    
+            <div [innerHTML]="texto3"></div>
+                  
+
+            <h4 class="modal-title pull-left">{{titulo11}}</h4>
+            <div [innerHTML]="textoa"></div>
+            <h4 class="modal-title pull-left">{{titulo12}}</h4>
+            <div [innerHTML]="textob"></div>
+            <h4 class="modal-title pull-left">{{titulo13}}</h4>
+            <div [innerHTML]="textoc"></div>
           </div>
       </div>
   </div>

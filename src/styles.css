@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 70%;
+  top: 53%;
   left: 72%;
   transform: translate(-50%, -50%);
   width: 8%; 
@@ -76,4 +76,18 @@
   transform: translate(-50%, -50%);
   width: 8%; 
 
+}
+.contenedor-caracteristicas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  width: 8%; 
+
+}
+.span{
+  color: blue;
 }
