@@ -143,7 +143,7 @@ export class AppComponent {
         break;
         
         case 5:
-          this.titulo='Descripciòn de Producto de Software'
+          this.titulo='7.Descripción de Producto de Software'
           this.texto=`Facilidad de Uso: Interfaz intuitiva o cualquier característica que haga que el software sea fácil de usar.
           Rendimiento Optimizado: Resalta el rendimiento rápido y eficiente del software.<br>
           Soporte Técnico: Menciona la disponibilidad de soporte técnico y cómo los usuarios pueden obtener ayuda cuando la necesiten.<br>
@@ -153,7 +153,7 @@ export class AppComponent {
           `
           break;
           case 6:
-            this.titulo = 'Propuesta de valor Idea de proyecto ';
+            this.titulo = '8.Propuesta de valor Idea de proyecto ';
             this.titulo1='Optimización y Automatización de procesos operacionales en la atención al cliente'
             this.texto1=`
             La propuesta de valor está enfocada en ofrecer una mejora en la experiencia al cliente y consiste en un producto de software de automatización y optimización de procesos enfocado en la atención al cliente.<br><br>
