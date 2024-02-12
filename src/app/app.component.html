@@ -5,9 +5,10 @@
       <div class="contenedor-animacion">
         <ng-lottie [options]="servicios"></ng-lottie>
       </div>
-      <div class="contenedor-idea">
-        <ng-lottie [options]="logo"></ng-lottie>
+      <div class="contenedor-inivacion">
+        <ng-lottie [options]="inovacion"></ng-lottie>
       </div>
+      
       <div class="contenedor-mercado">
         <ng-lottie [options]="mercado" (click)="openModal(template2, 2)"></ng-lottie>
       </div>
@@ -16,6 +17,16 @@
               <ng-lottie [options]="trabajo" (click)="openModal(template2, 1)"></ng-lottie>
             </a>
       </div>
+      <div class="contenedor-industria">
+        <a role="button">
+          <ng-lottie [options]="industria" (click)="openModal(template2, 1)"></ng-lottie>
+        </a>
+  </div>
+  <div class="contenedor-producto">
+    <a role="button">
+      <ng-lottie [options]="producto" (click)="openModal(template2, 1)"></ng-lottie>
+    </a>
+</div>
     </div>
   </div>
 </div>

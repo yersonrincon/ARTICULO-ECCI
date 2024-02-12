@@ -10,17 +10,17 @@ import { AnimationOptions } from "ngx-lottie";
 })
 export class AppComponent {
   title = 'trabajo-ecci';
-  texto: string ='';
+  texto: string = '';
   titulo: string = '';
   servicios: AnimationOptions = {
     path: "assets/ideas.json"
 
   }
-  mercado:AnimationOptions ={
-    path:"assets/mercado.json"
+  mercado: AnimationOptions = {
+    path: "assets/mercado.json"
   }
-  marketin:AnimationOptions ={
-    path:"assets/marketin.json"
+  marketin: AnimationOptions = {
+    path: "assets/marketin.json"
   }
   logo: AnimationOptions = {
     path: "assets/servicios.json"
@@ -29,6 +29,15 @@ export class AppComponent {
   trabajo: AnimationOptions = {
     path: "assets/trabajo.json"
 
+  }
+  industria: AnimationOptions = {
+    path: "assets/industria.json"
+  }
+  producto: AnimationOptions = {
+    path: "assets/producto.json"
+  }
+  inovacion :AnimationOptions ={
+    path:"assets/inovacion.json"
   }
   constructor(private modalService: BsModalService) {
   }
@@ -44,11 +53,11 @@ export class AppComponent {
   tipoTextos(icono: any): any {
     switch (icono) {
       case 1:
-        this.texto ='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis quos earum at fuga velit incidunt illum soluta, libero quibusdam hic possimus quod doloremque repellendus laudantium autem tenetur ab est.';
+        this.texto = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis quos earum at fuga velit incidunt illum soluta, libero quibusdam hic possimus quod doloremque repellendus laudantium autem tenetur ab est.';
         this.titulo = '';
         break;
       case 2:
-        this.texto ='case 2 ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis quos earum at fuga velit incidunt illum soluta, libero quibusdam hic possimus quod doloremque repellendus laudantium autem tenetur ab est.';
+        this.texto = 'case 2 ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis quos earum at fuga velit incidunt illum soluta, libero quibusdam hic possimus quod doloremque repellendus laudantium autem tenetur ab est.';
         this.titulo = '';
         break;
       default:
