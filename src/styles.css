@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.body {
+    background-color: rgb(8, 8, 8);
+}
+.container {
+    margin-top: 70px;
+  }
+
+  .contenedor-animacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; 
+  
+}
+.contenedor-idea {
+
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%; 
+}
+.contenedor-trabajo {
+ 
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%; 
+}
